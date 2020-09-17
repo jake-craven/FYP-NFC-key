@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2013 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<!-- This file defines which AIDs this application should emulate cards for.
+
+     Vendor-specific AIDs should always start with an "F", according to the ISO 7816 spec. We
+     recommended vendor-specific AIDs be at least 6 characters long, to provide sufficient
+     uniqueness. Note, however, that longer AIDs may impose a burden on non-Android NFC terminals.
+     AIDs may not exceed 32 characters (16 bytes).
+
+     Additionally, AIDs must always contain an even number of characters, in hexadecimal format.
+
+     In order to avoid prompting the user to select which service they want to use when the device
+     is scanned, this app must be selected as the default handler for an AID group by the user, or
+     the terminal must select *all* AIDs defined in the category simultaneously ("exact match").
+-->
+<!-- BEGIN_INCLUDE(CardEmulationXML) -->
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/service_name"
+    android:requireDeviceUnlock="false">
+    <aid-group android:description="@string/app_name" android:category="other">
+        <aid-filter android:name="F0010203040506" />
+    </aid-group>
+</host-apdu-service>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Smart Key</string>
+    <string name="action_settings">Add New Vehicle</string>
+    <string name="service_name">Add New Vehicle</string>
+</resources>
