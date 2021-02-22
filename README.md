@@ -1,5 +1,4 @@
-# Researching BLE ( Bluetooth Low Energy) and NFC (Near Field Communication) for use as a
-personal identification service to unlock a vehicle.
+# Researching BLE ( Bluetooth Low Energy) and NFC (Near Field Communication) for use as a personal identification service to unlock a vehicle.
 
 2. Project Summary
 The goal of my project is to examine which technology is better suited for identifying a person
