@@ -1,6 +1,6 @@
 # Researching BLE ( Bluetooth Low Energy) and NFC (Near Field Communication) for use as a personal identification service to unlock a vehicle.
 
-2. Project Summary
+# Project Summary
 The goal of my project is to examine which technology is better suited for identifying a person
 when paired with a smartphone. To do this, we will more be examining the area of car keys to
 see if we can use our smartphones reliably as a car key and to potentially allow for other features
@@ -15,7 +15,7 @@ capabilities, limitations, security and ease of implementation and possibly come
 on which technology is better suited to this function.
 6
 
-3. Context
+# Context
 Mobile phones are becoming an increasing part of our lives and many consider them an
 extension of ourselves. Many people are becoming more reliant upon them, even now
 Google/Apple pay are becoming increasingly popular and they cut back on the need to leave the
